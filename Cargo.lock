@@ -995,6 +995,11 @@ dependencies = [
 ]
 
 [[package]]
+name = "modularis"
+version = "0.1.0"
+source = "git+https://github.com/Sonicskater/modularis#42fce706a0c09cbd68b03083a40048926d8ff58e"
+
+[[package]]
 name = "more-asserts"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1470,6 +1475,7 @@ version = "0.1.0"
 dependencies = [
  "bincode",
  "bytemuck",
+ "modularis",
  "serde",
  "wasmer",
 ]
