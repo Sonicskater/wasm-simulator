@@ -1006,7 +1006,11 @@ dependencies = [
 [[package]]
 name = "modularis"
 version = "0.1.0"
-source = "git+https://github.com/Sonicskater/modularis#42fce706a0c09cbd68b03083a40048926d8ff58e"
+source = "git+https://github.com/Sonicskater/modularis#edf041a3e73674a17bb3490d9caa7188e4ada288"
+dependencies = [
+ "bincode",
+ "bytemuck",
+]
 
 [[package]]
 name = "more-asserts"
